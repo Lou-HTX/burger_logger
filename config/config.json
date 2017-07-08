@@ -17,7 +17,7 @@
         "username": "g5leh9rpjyyyp08g",
         "password": "q0rtgg4wxeio51d2",
         "database": "moped",
-        "host": "127.0.0.1",
+        "host": "b4e9xxkxnpu2v96i.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
         "dialect": "mysql"
     }
 }
