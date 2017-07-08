@@ -5,7 +5,7 @@
       <img class="center-align" id="logo" src="/assets/img/moped.jpg"></img>
 
       <form method="POST" action="/" class="button-size text-center">
-        <textarea type="text" name="burger_name" data-error="wrong" data-success="right" required></textarea>
+        <textarea type="text" name="moped_part" data-error="wrong" data-success="right" required></textarea>
         <br>
         <button class="waves-effect waves-light btn" type="submit">add to build</button>
       </form>
@@ -22,7 +22,7 @@
           <img src="/assets/img/parts1.jpg" alt="" class="square"> 
           <br>
           <span class="title">
-            {{this.id}}. {{this.burger_name}}</span> 
+            {{this.id}}. {{this.moped_part}}</span> 
           <form action="/{{this.id}}?_method=PUT" method="POST">
             <input type="hidden" name="id" value="{{this.devoured}}">
             <br>
@@ -43,7 +43,7 @@
           <br>
           <span class="title grey-text text-darken-1">
            
-              {{this.id}}. {{this.burger_name}}
+              {{this.id}}. {{this.moped_part}}
           
           </span> {{/if}} {{/each}}
       </ul>
